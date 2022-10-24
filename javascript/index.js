@@ -53,8 +53,6 @@ getInstruction("mashedPotatoes", 0, (step1) => {
 
 },
  (error) => console.log(error));
-
-
 // Iteration 2 - using promises
 obtainInstruction("steak", 0)
   .then((step0) => {
